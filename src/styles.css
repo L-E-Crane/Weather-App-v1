@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+#date-time {
+  text-align: center;
+}
+#celsius {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.card-body {
+  text-align: center;
+}
+.big-city {
+  padding-top: 30px;
+  font-size: 20px;
+}
+.big-temp {
+  font-size: 100px;
+  line-height: 85%;
+}
+.big-conditions {
+  font-size: 30px;
+}
+.card {
+  border-radius: 0%;
+  padding: 0%;
+}
+.card-group {
+  padding: 0%;
+  margin: 0%;
+}
+.temp-card {
+  border-top: 0ch;
+  border-bottom: 0ch;
+  padding-bottom: 175px;
+}
+.left-card {
+  border-left: 0ch;
+}
+.right-card {
+  border-right: 0ch;
+}
+.all-weather {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.big-weather {
+  padding: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+}
+
+.this-week {
+  padding-top: 100px;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-top: 0ch;
+  margin-bottom: 10px;
+  font-size: 22px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+.temp-card-icon {
+  font-size: 30px;
+}
+input[type="search"] {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin-left: 5px;
+  border-radius: 30px;
+  border-color: grey;
+}
