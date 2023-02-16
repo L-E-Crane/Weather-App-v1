@@ -29,6 +29,7 @@ dateTimeDisplay.innerHTML = formatDateTime();
 function showTemp(response) {
   let temp = Math.round(response.data.main.temp);
   let description = response.data.weather[0].description;
+  let windspeed = response.data.wind.speed;
   let searchedCity = response.data.name;
   let cityHeading = document.querySelector("#city-header");
   cityHeading.innerHTML = searchedCity;
@@ -36,6 +37,8 @@ function showTemp(response) {
   cityTemp.innerHTML = `${temp}°C`;
   let weatherDescription = document.querySelector("#big-descrip");
   weatherDescription.innerHTML = description;
+  let thewindspeed = document.querySelector("#windspeed");
+  thewindspeed.innerHTML = `windspeed: ${windspeed} mph`;
 }
 
 function citySearch(city) {
