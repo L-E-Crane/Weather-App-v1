@@ -3,9 +3,11 @@ h1 {
   font-size: 25px;
   font-weight: 100;
 }
+
 #date-time {
   text-align: center;
 }
+
 .footer {
   text-align: center;
   color: red;
@@ -87,4 +89,10 @@ input[type="search"] {
   margin-left: 5px;
   border-radius: 30px;
   border-color: grey;
+}
+#unit-choice {
+  font-size: small;
+}
+#current-description {
+  text-transform: capitalize;
 }

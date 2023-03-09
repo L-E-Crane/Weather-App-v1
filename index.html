@@ -26,72 +26,37 @@
         <h1>Weather</h1>
         <p id="date-time"></p>
         <div class="card-body">
-          <div class="card-body big-weather">
+          <div class="card-body">
             <div class="row">
-              <div id="city-header" class="col big-city"></div>
+              <div id="current-city">city</div>
             </div>
             <div class="row big-temp">
-              <div class="col" id="big-temp"></div>
+              <div class="col" id="current-temperature">Temp</div>
             </div>
-            <div class="row big-conditions">
-              <div class="col" id="big-descrip"></div>
+            <div class="unit-choice">
+              <a href="#" id="celsius-link" class="active"> °C</a> |
+              <a href="#" id="fahrenheit-link">°F</a>
             </div>
-            <div id="windspeed"></div>
+            <div class="row">
+              <div class="col"></div>
+            </div>
+            <div>
+              <img id="current-icon" src="#" width="50px" />
+              <span id="current-description">Description</span>
+            </div>
+            <p id="current-windspeed">Windspeed</p>
             <div class="card this-week">
               <p>This week</p>
             </div>
           </div>
-          <div class="card-group">
-            <div class="card temp-card left-card">
-              <div class="card-body">
-                <p></p>
-                <h5 class="card-title">47°F</h5>
-                <p class="temp-card-icon"><i class="fa-solid fa-cloud"></i></p>
-              </div>
-            </div>
-            <div class="card temp-card">
-              <div class="card-body">
-                <p></p>
-                <h5 class="card-title">42°F</h5>
-                <p class="temp-card-icon">
-                  <i class="fa-solid fa-cloud-rain"></i>
-                </p>
-              </div>
-            </div>
-            <div class="card temp-card">
-              <div class="card-body">
-                <p></p>
-                <h5 class="card-title">39°F</h5>
-                <p class="temp-card-icon">
-                  <i class="fa-solid fa-cloud-showers-heavy"></i>
-                </p>
-              </div>
-            </div>
-            <div class="card temp-card">
-              <div class="card-body">
-                <p></p>
-                <h5 class="card-title">41°F</h5>
-                <p class="temp-card-icon">
-                  <i class="fa-solid fa-cloud-bolt"></i>
-                </p>
-              </div>
-            </div>
-            <div class="card temp-card right-card">
-              <div class="card-body">
-                <p></p>
-                <h5 class="card-title">44°F</h5>
-                <p class="temp-card-icon">
-                  <i class="fa-solid fa-cloud-sun-rain"></i>
-                </p>
-              </div>
-            </div>
-          </div>
+          <div id="forecast">
+         
         </div>
         <div id="search-form">
-          <form>
+          <form id="search-form">
             <input
+              id="city-search"
               type="search"
-              id="search-city"
               placeholder="Search for a city..."
             />
           </form>
