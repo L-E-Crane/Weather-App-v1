@@ -30,8 +30,8 @@
             <div class="row">
               <div id="current-city">city</div>
             </div>
-            <div class="row big-temp">
-              <div class="col" id="current-temperature">Temp</div>
+            <div class="big-temp">
+              <span id="current-temperature">Temp</span><span>°</span>
             </div>
             <div class="unit-choice">
               <a href="#" id="celsius-link" class="active"> °C</a> |
@@ -49,25 +49,24 @@
               <p>This Week...</p>
             </div>
           </div>
-          <div id="forecast">
-         
-        </div>
-        <div id="search-form">
-          <form id="search-form">
-            <input
-              id="city-search"
-              type="search"
-              placeholder="Search for a city..."
-            />
-          </form>
+          <div id="forecast"></div>
+          <div id="search-form">
+            <form id="search-form">
+              <input
+                id="city-search"
+                type="search"
+                placeholder="Search for a city..."
+              />
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-    <script src="src/index.js"></script>
-    <div class="footer">
-      <a href="https://github.com/L-E-Crane/Weather-App-Project"
-        >My Code on Github</a
-      >
+      <script src="src/index.js"></script>
+      <div class="footer">
+        <a href="https://github.com/L-E-Crane/Weather-App-v1"
+          >My Code on Github</a
+        >
+      </div>
     </div>
   </body>
 </html>
